@@ -1,6 +1,6 @@
 body{
      margin: 0px; 
-     bacground-color: #F87C63; 
+    ; 
     } 
 h1{ 
     font-family:'Times New Roman', Times, serif; 
@@ -89,6 +89,7 @@ body{
     background-position: center; 
     background-attachment: fixed; 
     background-size: cover; 
+     background-color: #F87C63;
 } 
 .hezupani{
     margin: 10px; 
