@@ -83,12 +83,12 @@ footer{
     float:none; 
 } 
 body{ 
-    background-image: img src="skaly.JPG" url(skaly.JPG); 
+    background-image: img src="skaly.JPG"
     background-repeat: no-repeat; 
     background-position: center; 
     background-attachment: fixed; 
     background-size: cover; 
-     background-color: #F87C63;
+  
 } 
 .hezupani{
     margin: 10px; 
