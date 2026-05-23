@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
      margin: 0px; 
     } 
@@ -22,6 +25,7 @@ p{
     font-style: normal; 
     margin: 10px; 
 } 
+
 .box{ 
     max-width: 999px; 
     margin-left: auto; 
@@ -34,8 +38,20 @@ p{
     border-width:4px;
     border-style:solid;
     border-color: salmon;
-    
+    overflow: hidden;
 } 
+@media (max-width: 700px){
+
+    .box{
+        grid-template-columns: 1fr;
+    }
+
+    .sekce,
+    .obsah,
+    .hezupani{
+        flex-direction: column;
+    }
+}
 header, nav, main, footer{ 
     border: black 2px solid; 
 } 
@@ -83,12 +99,10 @@ footer{
     float:none; 
 } 
 body{ 
-    background-image: URL(skaly.JPG)
-    background-repeat: no-repeat; 
-    background-position: center; 
-    background-attachment: fixed; 
-    background-size: cover; 
-  
+    background-image: url(skaly.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 } 
 .hezupani{
     margin: 10px; 
@@ -116,4 +130,3 @@ body{
     max-width: 190px; 
     margin: 5px; 
 }
-
