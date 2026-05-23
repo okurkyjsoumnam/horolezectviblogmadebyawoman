@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    max-width: 100%;
+
 }
 body{
      margin: 0px; 
@@ -99,10 +101,7 @@ footer{
     float:none; 
 } 
 body{ 
-    background-image: url(skaly.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #FE676E;
 } 
 .hezupani{
     margin: 10px; 
@@ -119,7 +118,8 @@ body{
     gap: 20px; 
 } 
 .obsah img{ 
-    height: 300px; 
+    max-width: 100%;
+    height: auto; 
     margin-top: 50px;
     margin-right: 5px; 
 } 
