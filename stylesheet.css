@@ -101,7 +101,7 @@ footer{
     float:none; 
 } 
 body{ 
-    background-color: #C42B34;
+    background-color: #FFB284;
 } 
 .hezupani{
     margin: 10px; 
@@ -126,9 +126,14 @@ body{
     height: auto; 
 } 
 .box img{ 
-     max-width: 190px; 
+    max-width: 190px; 
     width: 100%; 
     margin: 15px;
+} 
+.navbar img{ 
+    max-width: 190px; 
+    width: 100%;  
+    margin: 5px; 
 } 
 .photo img{ 
     max-width: 190px; 
