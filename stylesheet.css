@@ -137,15 +137,17 @@ body{
     height: auto; 
 } 
 .photo img{ 
-  max-width: 300px;
+  max-width: 190px;
   width: 100%; 
   height: auto; 
-  margin-top: 50px;
+  margin: 5px;
+    
   
 } 
 .box img{ 
     max-width: 300px; 
     width: 100%; 
+    margin: 15px;
 } 
 main{ 
     overflow: hidden; 
