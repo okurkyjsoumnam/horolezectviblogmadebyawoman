@@ -1,7 +1,5 @@
 *{
     box-sizing: border-box;
-    max-width: 100%;
-
 }
 body{
      margin: 0px; 
@@ -146,7 +144,7 @@ body{
 .box img{ 
     max-width: 300px; 
     width: 100%; 
-    margin: 15px;
+    margin: 5px;
 } 
 main{ 
     overflow: hidden; 
