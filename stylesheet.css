@@ -99,6 +99,10 @@ footer{
 .navbar li{ 
     float:none; 
 } 
+.navbar img{ 
+    margin-left:1px;
+    margin-right:1px;
+} 
 body{ 
     background-color: #FFB284;
 } 
