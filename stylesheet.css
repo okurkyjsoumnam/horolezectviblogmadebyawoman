@@ -82,7 +82,7 @@ footer{
 .navbar ul{ 
     list-style-type:none; 
     background-color: none ; 
-    padding: 5px;
+    padding: 0px;
     margin: 0px; 
     overflow:hidden; 
 } 
