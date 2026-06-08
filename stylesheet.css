@@ -27,7 +27,8 @@ p{
     font-style: normal; 
     margin: 10px; 
 } 
-
+.pokyny{ 
+    text-align: cener;
 .box{ 
     max-width: 999px; 
     margin-left: auto; 
